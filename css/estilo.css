@@ -1,0 +1,163 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotro{
+	background: #303F9F;
+	color: #ffffff;
+	padding: 5%;
+	text-align: center;
+}
+.plus{
+	position: absolute;
+	top: 150px;
+	left: 120px;
+}
+
+.bajar {
+	position: absolute;
+	left: 600px;
+	text-align: center;
+	font-size: 50px;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	color: #ffffff;
+	background: #536DFE;
+}
+/*----------------------------------------Instruciones-------------------------------*/
+h3{
+	padding: 5%;
+}
+div .fa{
+	font-size: 100px;
+	margin-left: 30%;
+	padding-bottom: 30px; 
+}
+
+.Intru{
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 18px;
+	line-height: 30px;
+}
+#fullpage{
+	height: 100vh;
+	overflow: hidden;
+}
+
+#fullpage section{
+	height: 100vh;
+}
+#fullpage section:nth-child(1){
+	background: #3F51B5;  
+}
+#fullpage section:nth-child(2){
+	background: #00BCD4;
+}
+#fullpage section:nth-child(3){
+	background: #009688;
+}
+#fullpage section:nth-child(4){
+	background: #2196F3;
+}
+#fullpage section:nth-child(5){
+	background: #CDDC39;
+}
+#fullpage section:nth-child(6){
+	background: #FFC107;
+}
+#fullpage section:nth-child(7){
+	background: #8BC34A;
+}
+#fullpage section:nth-child(8){
+	background: #198E9C;
+}
+#fullpage section:nth-child(9){
+	background: #0EADA1;
+}
+#fullpage section:nth-child(10){
+	background: #04E2ED;
+}
+
+/*-------------------------------------Bloque-1--------------------*/
+.jumbotro-1{
+	background: #0097A7;
+	color: #ffffff;
+	padding: 3%;
+	text-align: left;
+}
+.imgGui{
+	position: absolute;
+	top: 80px;
+	opacity: .2;
+}
+/*-------------------------------------Bloque-2--------------------*/
+.jumbotro-2{
+	background: #00796B;
+	color: #ffffff;
+	padding: 3%;
+	text-align: left;
+}
+/*-------------------------------------Bloque-3--------------------*/
+.jumbotro-3{
+	background: #1976D2;
+	color: #ffffff;
+	padding: 3%;
+	text-align: left;
+}
+/*-------------------------------------Bloque-4--------------------*/
+.jumbotro-4{
+	background: #AFB42B;
+	color: #ffffff;
+	padding: 3%;
+	text-align: left;
+}
+/*-------------------------------------Bloque-5--------------------*/
+.jumbotro-5{
+	background: #FFA000;
+	color: #ffffff;
+	padding: 3%;
+	text-align: left;
+}
+/*-------------------------------------Bloque-6--------------------*/
+.jumbotro-6{
+	background: #689F38;
+	color: #ffffff;
+	padding: 3%;
+	text-align: left;
+}
+/*-------------------------------------Bloque-7--------------------*/
+.jumbotro-7{
+	background: #126872;
+	color: #ffffff;
+	padding: 3%;
+	text-align: left;
+}
+
+.imgHub{
+	position: absolute;
+	top: 80px;
+	opacity: .2;
+}
+/*-------------------------------------Bloque-8--------------------*/
+.jumbotro-8{
+	background: #0B877D;
+	color: #ffffff;
+	padding: 3%;
+	text-align: left;
+}
+/*-------------------------------------Bloque-9--------------------*/
+.jumbotro-9{
+	background: #04CAD4;
+	color: #ffffff;
+	padding: 3%;
+	text-align: left;
+}
+
+
+
+
+
+
