@@ -1,0 +1,24 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import FirstOptions from "../components/react/FirstOptions";
+import { Navbar } from "../components/react/Navbar";
+---
+
+<Layout title="Bienvenido a la Guia de git">
+  <main>
+    <Navbar />
+    <FirstOptions client:visible />
+    <div class="lg:pl-[19.5rem]">
+      <div class="max-w-3xl mx-auto pt-10 xl:max-w-none xl:ml-0 xl:mr-[15.5rem] xl:pr-16">
+        <div class="relative z-20 prose prose-slate mt-8 dark:prose-dark">
+          <h3 class="group flex whitespace-pre-wrap -ml-4 pl-4 font-semibold font-sans text-xl">New changes</h3>
+          <p>Como usar</p>
+          <pre class="bg-gray-900 p-5 rounded-md shadow-md text-white">
+            git add file.ext
+          </pre>
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>
