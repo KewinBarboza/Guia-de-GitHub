@@ -14,11 +14,34 @@ import { Navbar } from "../components/react/Navbar";
         <div class="relative z-20 prose prose-slate mt-8 dark:prose-dark">
           <h3 class="group flex whitespace-pre-wrap -ml-4 pl-4 font-semibold font-sans text-xl">New changes</h3>
           <p>Como usar</p>
-          <pre class="bg-gray-900 p-5 rounded-md shadow-md text-white">
-            git add file.ext
-          </pre>
+          <pre><code class="git" >git add file.ext</code></pre>
         </div>
       </div>
     </div>
   </main>
 </Layout>
+
+
+<style>
+  pre {
+    background: #282c34;
+    border-radius: 4px;
+    color: #fff;
+    margin: 0;
+    overflow: auto;
+    padding: 16px;
+  }
+  
+  code, pre {
+    font-family: Consolas,Menlo,Monaco,source-code-pro,monospace;
+    hyphens: none;
+    line-height: 1.5;
+    overflow: auto;
+    tab-size: 2;
+    text-align: left;
+    white-space: pre;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+  }
+</style>
