@@ -13,12 +13,18 @@ const { title } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/dracula.min.css">
+		<script is:inline src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+		<script is:inline >
+			hljs.initHighlightingOnLoad();
+		  </script>
 		<title>{title}</title>
 	</head>
 	<body class="bg-white">
 		<slot />
 	</body>
 </html>
+
 <style is:global>
 	:root {
 		--accent: 124, 58, 237;
