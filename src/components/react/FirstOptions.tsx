@@ -23,7 +23,7 @@ const options = [
 
 export default function FirstOptions() {
   return (
-    <ul className="hidden lg:block fixed z-20 inset-0 top-[3.8125rem] left-[max(0px,calc(50%-45rem))] right-auto w-[15rem] pb-10 px-2 overflow-y-auto">
+    <ul className="custon-scroll hidden lg:block fixed z-20 inset-0 top-[3.8125rem] left-[max(0px,calc(50%-45rem))] right-auto w-[15rem] pb-10 px-2 overflow-y-auto">
       {options.map((option) => (
         <li key={option.value} className="hover:bg-slate-300 py-2 px-3 rounded-md">{option.label}</li>
       ))}
