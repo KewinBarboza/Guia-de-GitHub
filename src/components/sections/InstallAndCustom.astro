@@ -36,9 +36,11 @@ import Section from "../../components/ui/Section.astro";
       <TitleStep number="3">
         Personalizar <b>Git</b>
       </TitleStep>
-      <CardCode
-        code={`git config --global user.name \ngit config --global user.email correo`}
-      />
+      <div class="ml-8 mt-3">
+        <CardCode
+          code={`git config --global user.name \ngit config --global user.email correo`}
+        />
+      </div>
     </li>
   </ul>
 </Section>

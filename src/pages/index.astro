@@ -5,15 +5,26 @@ import Hero from "../components/sections/Hero.astro";
 import CreateRepoLocal from "../components/sections/CreateRepoLocal.astro";
 import RollbackProyect from "../components/sections/RollbackProyect.astro";
 import DeleteAndRecoverCommit from "../components/sections/DeleteAndRecoverCommit.astro";
+import CreateBranch from "../components/sections/CreateBranch.astro";
+import JoinViewAndDeleteBranch from "../components/sections/JoinViewAndDeleteBranch.astro";
+import RepoRemote from "../components/sections/RepoRemote.astro";
+import CloneProject from "../components/sections/CloneProject.astro";
+import UpdateProject from "../components/sections/UpdateProject.astro";
 ---
 
 <Layout title="Bienvenido a la Guia de git">
-  <!-- <Navbar /> -->
   <Hero />
   <main class="px-52 mx-auto min-w-0 max-w-screen-xl">
+    <!-- GIT -->
     <InstallAndCustom />
     <CreateRepoLocal />
     <RollbackProyect />
     <DeleteAndRecoverCommit />
+    <CreateBranch />
+    <JoinViewAndDeleteBranch />
+    <!-- Github -->
+    <RepoRemote />
+    <CloneProject />
+    <UpdateProject />
   </main>
 </Layout>
