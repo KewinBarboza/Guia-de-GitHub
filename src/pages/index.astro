@@ -10,21 +10,29 @@ import JoinViewAndDeleteBranch from "../components/sections/JoinViewAndDeleteBra
 import RepoRemote from "../components/sections/RepoRemote.astro";
 import CloneProject from "../components/sections/CloneProject.astro";
 import UpdateProject from "../components/sections/UpdateProject.astro";
+import SideBard from "../components/ui/SideBard.astro";
+import Navbar from "../components/ui/Navbar.astro";
+import Footer from "../components/ui/Footer.astro";
 ---
 
 <Layout title="Bienvenido a la Guia de git">
+  <Navbar />
   <Hero />
-  <main class="px-52 mx-auto min-w-0 max-w-screen-xl">
-    <!-- GIT -->
-    <InstallAndCustom />
-    <CreateRepoLocal />
-    <RollbackProyect />
-    <DeleteAndRecoverCommit />
-    <CreateBranch />
-    <JoinViewAndDeleteBranch />
-    <!-- Github -->
-    <RepoRemote />
-    <CloneProject />
-    <UpdateProject />
+  <main class="flex border-t-[1px] border-gray-300">
+    <SideBard />
+    <div class="px-10">
+      <!-- GIT -->
+      <InstallAndCustom />
+      <CreateRepoLocal />
+      <RollbackProyect />
+      <DeleteAndRecoverCommit />
+      <CreateBranch />
+      <JoinViewAndDeleteBranch />
+      <!-- Github -->
+      <RepoRemote />
+      <CloneProject />
+      <UpdateProject />
+    </div>
   </main>
+  <Footer />
 </Layout>
